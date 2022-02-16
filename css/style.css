@@ -4,12 +4,7 @@ body {
   color: #4e4e4e;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1,h2,h3,h4,h5,h6 {
   color: #1e1e1e;
 }
 
@@ -39,6 +34,11 @@ a:hover {
 .color-text-a {
   color: #4e4e4e;
 }
+
+.main-font {
+  font-size: 3rem;
+}
+
 
 .box-shadow,
 .paralax-mf,
@@ -145,7 +145,7 @@ a:hover {
 
 .title-a {
   font-size: 3rem;
-  font-weight: bold;
+  /* font-weight: bold; */
   text-transform: uppercase;
 }
 
@@ -160,15 +160,35 @@ a:hover {
   margin: 0 auto;
 }
 
+
+
 /*--/ Title Left /--*/
 
 .title-box-2 {
   margin-bottom: 3rem;
 }
 
+.title-box-2-exp {
+  margin-bottom: 2rem;
+}
+
 .title-left {
   font-size: 2rem;
   position: relative;
+}
+
+.title-left-exp {
+  font-size: 2rem;
+  position: relative;
+}
+
+.title-box-2-exp h6 {
+  font-size: 16px;
+  background: #c4d8f1;
+  padding: 5px 15px;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 10px;
 }
 
 .title-left:before {
@@ -178,6 +198,14 @@ a:hover {
   background-color: #0078ff;
   width: 100px;
   bottom: -12px;
+}
+
+.line-mf-exp {
+  width: 40px;
+  height: 5px;
+  background-color: #f4f9ff;
+  margin: 0 auto;
+
 }
 
 /*------/ Box /------*/
@@ -620,8 +648,8 @@ a:hover {
 
 .intro .intro-title {
   color: #fff;
-  font-weight: 600;
-  font-size: 2rem;
+  font-weight: 500;
+  font-size: 1.5rem;
 }
 
 .intro .intro-subtitle {
@@ -747,6 +775,8 @@ a:hover {
 .service-box .s-description {
   color: #4e4e4e;
 }
+
+
 
 /*======================================
 //--//-->   COUNTER
@@ -1085,7 +1115,8 @@ a:hover {
 footer {
   text-align: center;
   color: #fff;
-  padding-bottom: 4rem;
+  padding: 25px;
+  background: #0062d3;
 }
 
 footer .copyright {
@@ -1228,7 +1259,7 @@ footer .credits a {
   }
 
   .intro .intro-title {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 
   .intro .intro-subtitle {
